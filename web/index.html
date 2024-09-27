@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Geographyle</title>
+  <link rel="icon" type="png" href="https://media.discordapp.net/attachments/938864270240780328/1050774106565521418/globe_PNG6-2608365685.png?width=670&height=670" sizes="32x32">
+</head> 
+
+<body id='body' class='cover'>
+  <nav>
+  <ul>
+    <li><a href="https://replit.com/@Ivo14/geographyle#script.js">Source code</a></li>
+    <li class="dropdown">
+      <a href="#">Other</a>
+      <div class="dropdown-content">
+        <a href="https://geofacts.ivo14.repl.co/#">GeoFacts</a>
+        <a href="https://territory.ivo14.repl.co/">Territory</a>
+        <a href="https://hangmancountries.ivo14.repl.co/">Hangman</a>
+      </div>
+    </li>
+    <form>
+    <select id="lang-switch" class="buttons" onchange="localStorage.setItem('lang', document.getElementById('lang-switch').value);document.location.reload();">
+        <option value="fr">🇫🇷 Français</option>
+        <option value="es" selected>🇪🇦 Español</option>
+      <option value="en" selected>🇬🇧 English</option>
+      <option value="en" disabled selected>Language</option>
+    </select>
+    </form>
+  </ul>
+</nav>
+  <h2 id=Message class=strokemered style="color: white"></h2>
+
+
+  <input id='GuessInput' name="country" list="countries" type='text'>
+  <datalist id="countries">
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+        <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+        <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+              <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+        <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+              <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+      <option value="Boston">
+      <option value="Cambridge">
+            <option value="Boston">
+      <option value="Cambridge">
+      <option value="Boston">
+      <option value="Cambridge">      
+    </datalist>
+  <button class="buttons" id='GuessInputButton'>Guess</button>
+
+
+</div> 
+  <div id=Description class="strokeme f description" style=margin-top:10px;font-size:130%;color:white></div>
+
+  <div id=capital class="strokeme f" style="margin-top:10px;font-size:130%;color:white"></div>
+      
+  <div id=flag></div>
+
+ <div id=maplocation></div>
+
+<button class="buttons" id=newgame style=display:none>New game</button>
+</body>
+
+<script src="script.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</html>
