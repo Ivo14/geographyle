@@ -2449,7 +2449,7 @@ let changelang1 = (country,language) =>{
 let country
 
 let game1 = () => {
-  country = {
+  /*country = {
         "name": "Serbia",
         "namees": "Serbia",
         "namefr": "Serbie",
@@ -2460,8 +2460,8 @@ let game1 = () => {
         "picture": "https://images.pexels.com/photos/28531964/pexels-photo-28531964/free-photo-of-scenic-alpine-farm-landscape-with-cows.jpeg",
         "descriptionfr": "Pays enclavé au carrefour de l'Europe du Sud-Est et de l'Europe centrale, situé dans les Balkans et la plaine de Pannonie. Un sondage réalisé en 2014 a montré que 47 % des citoyens du pays sont favorables à l'alphabet latin, 36 % à l'alphabet cyrillique et 17 % n'ont pas de préférence.",
         "descriptiones": "País sin salida al mar situado en la encrucijada del sureste y el centro de Europa, ubicado en los Balcanes y la llanura panónica. Una encuesta de 2014 mostró que el 47% de los ciudadanos del país está a favor del alfabeto latino, el 36% del cirílico y el 17% no tiene preferencias."
-  }
-         // country = arrcountries[Math.floor(Math.random() * arrcountries.length)]
+  }*/
+         country = arrcountries[Math.floor(Math.random() * arrcountries.length)]
   
   changelang(country,localStorage.lang);
  
@@ -2510,7 +2510,7 @@ Lose = () => {
   MessageDiv.classList.remove('strokemegreen');
 let randomwintext=randomwintxtsloseMain[Math.floor(Math.random() *randomwintxtsloseMain.length)]
    gameEnded = true;
-  MessageDiv.innerText = `${randomwintext.text} ${country.name}. Streak: ${localStorage.streak} -> 0.`; 
+  MessageDiv.innerText = `${randomwintext.text} ${country.name}. Streak: ${localStorage.streak} → 0.`; 
   localStorage.streak=0;
   GuessInputButtonDiv.style.display = 'none'
   newgamecheck()
