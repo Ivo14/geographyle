@@ -85,7 +85,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/21/ATG_orthographic.svg",
           "code": "AG",
           "capital": "St. John's",
-          "picture": "https://media.discordapp.net/attachments/1059949060116725820/1069298806677585970/Antigua-e1555955721238-2500x1406.png",
+          "picture": "https://images.pexels.com/photos/16893066/pexels-photo-16893066/free-photo-of-clear-sky-over-sea-shore.jpeg",
           "descriptionfr": "Une nation insulaire qui se trouve à la conjoncture de la mer des Caraïbes et de l'océan Atlantique dans les îles sous les îles sous les moindres Antilles. Il a plusieurs îles plus petites, dont un grand oiseau, le vert, la Guyane, Long, Maiden, Barbaqueau, York et Redonda.",
           "descriptiones": "Una nación isleña que se encuentra en la coyuntura del mar Caribe y el Océano Atlántico en las Islas de Sotavento, parte de las Antillas Menores. Tiene varias islas más pequeñas, incluyendo Great Bird, Green, Guayan, Long, Maiden, Prickly Pear, York y Redonda."
       },
@@ -337,7 +337,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/8/86/Burkina_Faso_%28orthographic_projection%29.svg",
           "code": "BF",
           "capital": "Ouagadougou",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1069346436300406926/burkina-faso-06-cr-getty.png",
+          "picture": "https://img.freepik.com/free-photo/cloudy-blue-sky-valley-tatacoa-desert-colombia_181624-19677.jpg?t=st=1727424574~exp=1727428174~hmac=968f136a13494e6af91257e8b71e41c75c5f2052997d362d63230506e553d954&w=1800",
           "descriptionfr": "Un pays en Afrique de l'Ouest qui s'appelait Upper Volta. Autrefois gouverné par la France, maintenant indépendant depuis 1960.",
           "descriptiones": "Un país en África occidental que solía llamarse Upper Volta. Una vez gobernado por Francia, ahora independiente desde 1960."
       },
@@ -409,7 +409,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Central_African_Republic_%28centered_orthographic_projection%29.svg",
           "code": "CF",
           "capital": "Bangui",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1069644312503144559/Boali-Waterfalls.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/b/be/CARvillagefromthesky.jpg",
           "descriptionfr": "Un pays enclavé en Afrique centrale.",
           "descriptiones": "Un país sin litoral en África Central."
       },
@@ -421,7 +421,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/4/46/Chad_%28orthographic_projection%29.svg",
           "code": "TD",
           "capital": "N'Djamena",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1199370536770347048/rock-formations-ennedi-landscape-chad.jpg?ex=65c24bdb&is=65afd6db&hm=ceb9aed26d3dda8733b42e67271366d20f248c00015eb648851a05b9b9b47bdb&",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Danse_fille_mboum_Tchad.jpg",
           "descriptionfr": "C'était une colonie française jusqu'en 1960. Elle souffre de pauvreté, de maladie, de sécheresse et de conflits armés.",
           "descriptiones": "Era una colonia francesa hasta 1960. Sufre de pobreza, enfermedad, sequía y conflictos armados."
       },
@@ -481,7 +481,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg",
           "code": "CG",
           "capital": "Brazzaville",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1069647084820635668/8gzwbmgfu0_Medium_WW243241.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Pro-constitutional_reform_demonstration_in_Brazzaville_-_2015-10_%2821518932913%29.jpg",
           "descriptionfr": "Une ancienne colonie de France. Le nord du pays a de très grandes zones de forêt tropicale, mais dans le sud, de nombreuses fermes qui cultivent des trésorerie comme les bananes, les arachides.",
           "descriptiones": "Una antigua colonia de Francia. El norte del país tiene áreas muy grandes de selva tropical, pero en el sur hay muchas granjas que cultivan cajas de caja como plátanos, maní."
       },
@@ -601,7 +601,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/7/78/Dominica_on_the_globe_%28Americas_centered%29.svg",
           "code": "DM",
           "capital": "Roseau",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1070382481137729546/960x0.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Batalie_Bay%2C_Dominica_002.jpg",
           "descriptionfr": "Une nation insulaire de la mer des Caraïbes. C'est un pays anglophone. C'est entre les territoires francophones de la Guadeloupe et de la Martinique.",
           "descriptiones": "Una nación isleña en el mar Caribe. Es un país de habla inglesa. Es entre los territorios de habla francesa de Guadalupe y Martinica."
       },
@@ -661,7 +661,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/b/b9/GNQ_orthographic.svg",
           "code": "GQ",
           "capital": "Malabo",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1070389660007813231/Annobon-island.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Dschungel_bei_Oyala.JPG",
           "descriptionfr": "Un pays africain qui est l'un des plus petits pays d'Afrique. Il borde le golfe de Guinée à l'ouest. Le territoire du pays est à la fois sur le continent et sur les îles. La partie continentale est connue sous le nom de Río Muni.",
           "descriptiones": "Un país africano que es uno de los países más pequeños de África. Rimera al Golfo de Guinea en el oeste. El territorio del país está en el continente y en las islas. La parte continental se conoce como Río Muni."
       },
@@ -673,7 +673,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/4/43/Eritrea_%28Africa_orthographic_projection%29.svg",
           "code": "ER",
           "capital": "Asmara",
-          "picture": "https://cdn.discordapp.com/attachments/1059949060116725820/1070389989071917096/Eritreanlandscape.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Qohaito%2C_Eritrea_%2833628113490%29.jpg",
           "descriptionfr": "Un pays africain situé sur la côte de la mer Rouge. Il est au nord du Bab-el-Mandeb et de la corne de l'Afrique. C'est l'un des plus petits pays d'Afrique.",
           "descriptiones": "Un país africano que se encuentra en la costa del Mar Rojo. Está al norte del Bab-El-Mandeb y el Cuerno de África. Es uno de los países más pequeños de África."
       },
@@ -745,7 +745,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Gabon_%28orthographic_projection%29.svg",
           "code": "GA",
           "capital": "Libreville",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1146883867442171964/image.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/8/84/Park_In_Gabon.JPG",
           "descriptionfr": "Un pays d'Afrique, situé sur l'équateur. C'était une colonie de France. Il est devenu un nouveau pays le 17 août 1960.",
           "descriptiones": "Un país en África, ubicado en el ecuador. Era una colonia de Francia. Se convirtió en un nuevo país el 17 de agosto de 1960."
       },
@@ -853,7 +853,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/c/c3/LocationGuineaBissau.svg",
           "code": "GW",
           "capital": "Bissau",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1146896182275215471/96-781830367.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/4/44/Lagoa_com_hipop%C3%B3tamos_01.jpg",
           "descriptionfr": "Un pays situé en Afrique occidentale. La langue officielle est portugaise. Le pays était une colonie portugaise au 19e siècle. À ce moment-là, s'appelait Portugais Guinée. Il est devenu indépendant en 1973.",
           "descriptiones": "Un país ubicado en África occidental. El idioma oficial es portugués. El país era una colonia portuguesa en el siglo XIX. En ese momento se llamaba Guinea portuguesa. Se hizo independiente en 1973."
       },
@@ -865,7 +865,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/20/Guyana_%28orthographic_projection%29.svg",
           "code": "GY",
           "capital": "Georgetown",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1146896709834788968/q_70-2084504529.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/2/22/Tractor_in_field_of_rice_by_Khirsah1.jpg",
           "descriptionfr": "Un pays situé en Amérique du Sud. C'est l'un des pays les plus peu peuplés du monde. La capitale, comme la plupart des colonies du pays, se trouve sur une plaine côtière plate qui va du nord-ouest au sud-est.",
           "descriptiones": "Un país ubicado en América del Sur. Es uno de los países más poblados del mundo. La capital, como la mayoría de los asentamientos del país, se encuentra en una llanura costera plana que va del noroeste al sureste."
       },
@@ -1081,7 +1081,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Kiribati_on_the_globe_%28Polynesia_centered%29.svg",
           "code": "KI",
           "capital": "Tarawa",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147087851595518022/image.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Marakei_Atoll.jpg",
           "descriptionfr": "Le pays est composé de plusieurs îles situées sur l'océan Pacifique. Il a 33 atolls, des groupes de minuscules îles. Le pays est près de l'équateur. La nation était également connue comme les grandes îles de Gilbert.",
           "descriptiones": "El país está compuesto por varias islas ubicadas en el Océano Pacífico. Tiene 33 atolones, grupos de pequeñas islas. El país está cerca del ecuador. La nación también solía ser conocida como las grandes islas Gilbert."
       },
@@ -1322,7 +1322,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Mali_%28orthographic_projection%29.svg",
           "code": "ML",
           "capital": "Bamako",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147244392290193449/timbuktu_1.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Djenne_market.jpg",
           "descriptionfr": "Un pays enclavé en Afrique de l'Ouest. Les caractéristiques physiques comprennent le désert du Sahara dans le nord, avec la rivière Niger et la rivière Sénégal dans la partie sud du pays.",
           "descriptiones": "Un país sin litoral en África occidental. Las características físicas incluyen el desierto del Sahara en el norte, con el río Níger y el río Sénégal en la parte sur del país."
       },
@@ -1394,7 +1394,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Micronesia_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg",
           "code": "FM",
           "capital": "Palikir",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147246859501441105/1465.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b5/South_Tarawa_from_the_air.jpg",
           "descriptionfr": "Un pays situé dans l'océan Pacifique, composé de plus de 600 îles. Il est connu pour ses belles plages, ses récifs coralliens et sa vie marine diversifiée.",
           "descriptiones": "Un país ubicado en el Océano Pacífico, compuesto por más de 600 islas. Es conocido por sus hermosas playas, arrecifes de coral y diversa vida marina."
       },
@@ -1502,7 +1502,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nauru_on_the_globe_%28Polynesia_centered%29.svg",
           "code": "NR",
           "capital": "Yaren",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147249173557678170/wp2227951.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Aerial_view_of_Nauru.jpg",
           "descriptionfr": "Une nation insulaire souveraine dans le Pacifique sud micronésien. C'est la plus petite nation insulaire du monde, couvrant seulement 21 kilomètres carrés (8 m²), la plus petite république indépendante et le seul État républicain au monde sans capitale officielle. La nation est le troisième pays le moins peuplé après la ville du Vatican et Tuvalu.",
           "descriptiones": "Una nación isleña soberana en el Pacífico Sur de Micronesia. Es la nación isleña más pequeña del mundo, que cubre solo 21 kilómetros cuadrados (8 millas cuadradas), la república independiente más pequeña y el único estado republicano del mundo sin una capital oficial. La nación es el tercer país menos poblado después de la ciudad del Vaticano y Tuvalu."
       },
@@ -1562,7 +1562,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/8/88/Niger_%28orthographic_projection%29.svg",
           "code": "NE",
           "capital": "Niamey",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147253039024046171/niger_700.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Niger%2C_Barkiawal_B%C3%A9ri_%2804%29%2C_vue_a%C3%A9rienne_avec_RN25.jpg",
           "descriptionfr": "Un pays en Afrique occidentale. Sa langue officielle est le français. La nation est enclavée. Il tire son nom de la rivière Niger, dont le nom provient peut-être du mot berbère «River of Rivers».",
           "descriptiones": "Un país en África occidental. Su idioma oficial es el francés. La nación está sin litoral. Obtiene su nombre del río Níger, cuyo nombre posiblemente proviene de la palabra bereber 'río de ríos'."
       },
@@ -1622,7 +1622,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg",
           "code": "PW",
           "capital": "Ngerulmud",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147460271498067978/wp2238021.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Palau_Maritime_Police_vessel.jpg",
           "descriptionfr": "Une nation insulaire en Océanie. Il a obtenu l'indépendance de l'administration de la tutelle des Nations Unies en 1994. C'est l'une des plus jeunes et des plus petites nations du monde. Il est parfois mentionné en anglais sous son nom natal Belau.",
           "descriptiones": "Una nación isleña en Oceanía. Obtuvo la independencia de la administración de la confianza de las Naciones Unidas en 1994. Es una de las naciones más jóvenes y más pequeñas del mundo. A veces se hace referencia en inglés con su nombre nativo Belau."
       },
@@ -1778,7 +1778,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/5/5d/KNA_orthographic.svg",
           "code": "KN",
           "capital": "Basseterre",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147499511325925416/image.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/0/00/Saint_Kitts_and_Nevis_Government_building_2.JPG",
           "descriptionfr": "Une nation fédérale composée de deux petites îles dans la mer des Caraïbes. C'est le plus petit pays indépendant de l'hémisphère occidental.",
           "descriptiones": "Una nación federal compuesta por dos pequeñas islas en el mar Caribe. Es el país independiente más pequeño del hemisferio occidental."
       },
@@ -1802,7 +1802,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/7/70/VCT_orthographic.svg",
           "code": "VC",
           "capital": "Kingstown",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147500203188957254/iStock-saint-vincent-grenadines-scaled.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/St._Vincent%2C_Karibik_-_Kingstown_-_Looking_north_from_Fort_Charlotte_-_panoramio.jpg",
           "descriptionfr": "Une nation insulaire de la mer des Caraïbes. Il est membre du Commonwealth des nations, de l'Organisation des États des Caraïbes orientales et de la CARICOM. Le pays parle l'anglais comme sa langue officielle.",
           "descriptiones": "Una nación isleña en el mar Caribe. Es miembro de la Commonwealth of Nations, la Organización de los Estados del Caribe Oriental y Caricom. El país habla inglés como su idioma oficial."
       },
@@ -1838,7 +1838,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/3/35/Location_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_AU_Africa.svg",
           "code": "ST",
           "capital": "Sao Tome",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147500821186084874/01-PRINCIPE_3.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/2/29/Sao_Tome_Cathedral_7_%2816223085806%29.jpg",
           "descriptionfr": "Une nation insulaire en Afrique centrale, elle est située au large du golfe de Guinée. La nation est l'État souverain africain le plus petit et le plus petit après les Seychelles ainsi que le pays portugais le plus petit et le moins peuplé au monde.",
           "descriptiones": "Una nación isleña en África Central, se encuentra fuera del Golfo de Guinea. La nación es el segundo estado soberano africano más pequeño y segundo pobre después de Seychelles, así como el país de habla portuguesa más pequeña y menos poblada del mundo."
       },
@@ -1946,7 +1946,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg",
           "code": "SB",
           "capital": "Honiara",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147506617768747018/image.png",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Medium_shot_of_idyllic_villages_beach_near_Auki%2C_the_capital_of_Malaita._%2810702263414%29.jpg",
           "descriptionfr": "Un pays insulaire composé de six îles grandes et de plus de 900 îles plus petites, elle a une superficie de 28 400 kilomètres carrés et une population d'environ 700 000 habitants. Sa capitale est située sur la plus grande île, Guadalcanal",
           "descriptiones": "Un país de la isla que consta de seis islas principales y más de 900 islas más pequeñas, tiene un área de tierra de 28,400 kilómetros cuadrados y una población de aproximadamente 700,000. Su capital se encuentra en la isla más grande, Guadalcanal"
       },
@@ -1982,7 +1982,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/6/65/South_Sudan_%28orthographic_projection%29.svg",
           "code": "SS",
           "capital": "Juba",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147509079099588618/vakantie-suriname.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Juba_City.jpg",
           "descriptionfr": "Un pays enclavé en Afrique de l'Est. Il faisait partie du Soudan jusqu'en 2011. La nation comprend la vaste région de marais du Sudd formée par le Nil blanc, localement appelé le Bahr al Jabal.",
           "descriptiones": "Un país sin litoral en África Oriental. Formó parte de Sudán hasta 2011. La nación incluye la vasta región del pantano del Sudd formada por el Nilo Blanco, llamada localmente la Bahr Al Jabal."
       },
@@ -2042,7 +2042,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Eswatini_on_the_globe_%28special_marker%29_%28Madagascar_centered%29.svg",
           "code": "SZ",
           "capital": "Mbabane",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147509292681924668/ptpey8.webp",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/2/20/Eswatini_landscape.jpg",
           "descriptionfr": "Un pays enclavé en Afrique australe. Son gouvernement est une monarchie absolue, la dernière du genre en Afrique, et est gouvernée par le roi Mswati III depuis 1986.",
           "descriptiones": "Un país sin litoral en el sur de África. Su gobierno es una monarquía absoluta, la última de su tipo en África, y ha sido gobernada por el Rey Mswati III desde 1986."
       },
@@ -2138,7 +2138,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Timor_Leste_%28orthographic_projection%29.svg",
           "code": "TL",
           "capital": "Dili",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147513668058235032/Kids-Science-Fun-Facts-on-East-Timor-Image-of-a-Landscape-in-East-Timor.webp",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e4/National_Parliament_building%2C_Dili%2C_2018_%2801%29.jpg",
           "descriptionfr": "Le pays est passé sous l'influence portugaise au XVIe siècle, restant une colonie portugaise jusqu'en 1975. Le conflit interne a précédé une déclaration d'indépendance unilatérale et une invasion et une annexion indonésiennes. La résistance s'est poursuivie tout au long du régime indonésien et, en 1999, un acte d'autodétermination parasorisé des Nations Unies a conduit à l'abandon du contrôle du territoire en Indonésie. Le 20 mai 2002, il est devenu le premier nouvel état souverain du 21e siècle.",
           "descriptiones": "El país fue bajo influencia portuguesa en el siglo XVI, permaneciendo una colonia portuguesa hasta 1975. El conflicto interno precedió a una declaración unilateral de independencia y una invasión y anexión indonesia. La resistencia continuó durante todo el dominio indonesio, y en 1999 un acto de autodeterminación patrocinado por las Naciones Unidas condujo al control del territorio de Indonesia. El 20 de mayo de 2002 se convirtió en el primer nuevo estado soberano del siglo XXI."
       },
@@ -2162,7 +2162,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Tonga_on_the_globe_%28Polynesia_centered%29.svg",
           "code": "TO",
           "capital": "Nuku'alofa",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147514508408004690/wp2261147.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Royal_Palace%2C_Nuku%27alofa.jpg",
           "descriptionfr": "Un pays polynésien et un archipel. Le pays compte 171 îles - dont 45 sont habitées. Selon sa mythologie, le demi-dieu Maui a élaboré un groupe d'îles de l'océan, apparaissant d'abord Lofanga, les îles Ha'apai et Vava'u, s'intégrant dans le pays.",
           "descriptiones": "Un país y archipiélago polinesio. El país tiene 171 islas, de las cuales 45 están habitadas. Según su mitología, el semidiós Maui elaboró ​​un grupo de islas del océano, que apareció por primera vez en Lofanga, las Islas Ha'apai y Vava'u, integrándose en el país."
       },
@@ -2222,7 +2222,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Tuvalu_on_the_globe_%28Polynesia_centered%29.svg",
           "code": "TV",
           "capital": "Funafuti",
-          "picture": "https://cdn.discordapp.com/attachments/1091088413790318743/1147516484747268156/ab7089d0f40b5833da0a0068abba3cce.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/4/41/Tuvalu_Funafuti_atoll_beach.jpg",
           "descriptionfr": "Un archipel volcanique, composé de trois îles de récif et de six vrais atolls. Les revenus du gouvernement proviennent en grande partie des ventes de permis de pêche, de revenus du fonds en fiducie du pays et du bail de son domaine de haut niveau .tv (TLD).",
           "descriptiones": "Un archipiélago volcánico, que consta de tres islas de arrecifes y seis atolones verdaderos. Los ingresos del gobierno provienen en gran medida de las ventas de licencias de pesca, ingresos del fondo fiduciario del país y del arrendamiento de su dominio de nivel superior de Internet .TV (TLD)."
       },
@@ -2366,7 +2366,7 @@ let arrcountries = [
           "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/26/Zambia_%28orthographic_projection%29.svg",
           "code": "ZM",
           "capital": "Lusaka",
-          "picture": "https://media.discordapp.net/attachments/1091088413790318743/1147521778504183818/wp6400228.jpg",
+          "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Cataratas_Victoria%2C_Zambia-Zimbabue%2C_2018-07-27%2C_DD_05.jpg",
           "descriptionfr": "Un pays sans littoral au carrefour de l'Afrique centrale, sud et orientale, bien qu'il soit généralement appelé être en Afrique australe à son point le plus central. Il contient de nombreuses ressources naturelles, notamment des minéraux, de la faune, de la foresterie, de l'eau douce et des terres arables. En 2010, la Banque mondiale a nommé le pays l'un des pays réformés économiquement les plus rapides du monde.",
           "descriptiones": "Un país sin litoral en la encrucijada de África central, sur y este, aunque generalmente se conoce como en el sur de África en su punto más central. Contiene abundantes recursos naturales, que incluyen minerales, vida silvestre, silvicultura, agua dulce y tierras cultivables. En 2010, el Banco Mundial nombró al país uno de los países económicamente reformados más rápidos del mundo."
       },
