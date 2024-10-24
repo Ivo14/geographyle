@@ -5,7 +5,7 @@ let maplocationDiv = document.getElementById('maplocation')
 let GuessInputDiv = document.getElementById('GuessInput')
 let GuessInputButtonDiv = document.getElementById('GuessInputButton')
 let MessageDiv = document.getElementById('Message')
-let newgameButton = document.getElementById('newgame')
+let NewGameButton = document.getElementById('NewGameButton')
 let picDiv = document.getElementById('pic')
 let body = document.getElementById('body')
 let lang = document.getElementById('lang-switch')
@@ -2399,7 +2399,7 @@ let changelang = (country,language) =>{
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsMain[i] = randomwintxts[i];}
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsloseMain[i] = randomwintxtslose[i];}
       GuessInputButton.innerText = "Guess";
-      newgameButton.innerText = "New game";
+      NewGameButton.innerText = "New game";
   break;
   case 'es':
       country.description=country.descriptiones;
@@ -2407,7 +2407,8 @@ let changelang = (country,language) =>{
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsMain[i] = randomwintxtses[i];}
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsloseMain[i] = randomwintxtslosees[i];}
       GuessInputButton.innerText = "Adivina";
-      newgameButton.innerText = "Nuevo juego";
+      NewGameButton.innerText = "Nuevo juego";
+      GuessInputDiv.placeholder = "Introducir país";
   break;
       case 'fr':
           country.description=country.descriptionfr;
@@ -2415,7 +2416,8 @@ let changelang = (country,language) =>{
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsMain[i] = randomwintxtsfr[i];}
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsloseMain[i] = randomwintxtslosefr[i];}
       GuessInputButton.innerText = "Deviner";
-      newgameButton.innerText = "Nouveau jeu";
+      NewGameButton.innerText = "Nouveau jeu";
+      GuessInputDiv.placeholder = "Saisir le pays"
       break;
   default:
       country.description=country.description;
@@ -2423,7 +2425,8 @@ let changelang = (country,language) =>{
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsMain[i] = randomwintxts[i];}
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsloseMain[i] = randomwintxtslose[i];}
       GuessInputButton.innerText = "Guess";
-      newgameButton.innerText = "New game";
+      NewGameButton.innerText = "New game";
+      GuessInputDiv.placeholder = "Enter country";
   }
 }
 let changelang1 = (country,language) =>{
@@ -2443,7 +2446,7 @@ let changelang1 = (country,language) =>{
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsMain[i] = randomwintxts[i];}
       for(let i=0;i<randomwintxts.length;i++){ randomwintxtsloseMain[i] = randomwintxtslose[i];}
       GuessInputButton.innerText = "Guess";
-      newgameButton.innerText = "New game";
+      NewGameButton.innerText = "New game";
   }
 }
 let country
@@ -2488,7 +2491,7 @@ let game = () => {
   else body.style.backgroundImage = `url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3416336.jpg&f=1&nofb=1&ipt=c360357dde07f57cd9aee85cc2a13e6940e022536c3898d602bfa1da72244bbf&ipo=images)`
 }
 newgamecheck = ()=>{
-  if(NotWriting && NotWriting2) newgameButton.style = ''
+  if(NotWriting && NotWriting2) NewGameButton.style = ''
   else setTimeout(newgamecheck, 1000)
 }
 Win = () => {
@@ -2584,28 +2587,28 @@ let anewgame = () => {
   MessageDiv.innerText = ''
   numberOfGuesses = 0
   GuessInputButtonDiv.style.display = ''
-  newgameButton.style.display = 'none'
+  NewGameButton.style.display = 'none'
   GuessInputDiv.value = ''
   game()
 }
 game1()
 GuessInputButtonDiv.onclick = () => { checker() }
-GuessInput.addEventListener("keydown", (k) => {
+GuessInputDiv.addEventListener("keydown", (k) => {
   if (k.keyCode == 13 && !gameEnded) { checker() }
 })
-newgameButton.onclick = () => {
-      {newgameButton.style.display = 'none';setTimeout(anewgame, 1000);}
+NewGameButton.onclick = () => {
+      {NewGameButton.style.display = 'none';setTimeout(anewgame, 1000);}
 }
 let l=document.getElementById('countries')
 for(let i =0;i<arrcountries.length;i++){
   changelang1(arrcountries[i],localStorage.lang);
   l.options[i].value=arrcountries[i].name
 }
-GuessInput.addEventListener("keydown", (k) => {
-  if (k.keyCode == 32 && newgameButton.style.display == '') {newgameButton.style.display = 'none';setTimeout(anewgame, 1000);}
+GuessInputDiv.addEventListener("keydown", (k) => {
+  if (k.keyCode == 32 && NewGameButton.style.display == '') {NewGameButton.style.display = 'none';setTimeout(anewgame, 1000);}
 })
 document.addEventListener("keydown", (k) => {
-  if (k.keyCode == 32 && newgameButton.style.display == '') {newgameButton.style.display = 'none';setTimeout(anewgame, 1000);}
+  if (k.keyCode == 32 && NewGameButton.style.display == '') {NewGameButton.style.display = 'none';setTimeout(anewgame, 1000);}
 })
 
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langyle</title>
+    <link rel="icon" type="image/x-icon" href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body id=a >
+  <nav>
+    <ul>
+        <li><a href="/">Home</a></li>
+      <li><a href="https://github.com/Ivo14/langyle">Source code</a></li>
+    </ul>
+  </nav>
+    <h2 id=Message class='description'style="color: rgb(255, 255, 255)">What's this language?</h2>
+    <p id="text"></p>
+    <div>
+    <span class="input">
+        <input autofocus="" placeholder="Enter language" id='GuessInput' name="language" list="languages" type='text'>
+      </span>
+      
+      <datalist id="languages">
+        <option value="Boston">
+        <option value="Cambridge">
+        <option value="Boston">
+        <option value="Cambridge">      
+        <option value="Boston">
+        <option value="Cambridge">
+        <option value="Cambridge">
+        <option value="Boston">
+        <option value="Cambridge">      
+        <option value="Boston">
+        <option value="Cambridge">
+        <option value="Cambridge">
+        <option value="Boston">
+        <option value="Cambridge">
+        <option value="Boston">
+        <option value="Cambridge">
+        <option value="Cambridge">
+        <option value="Cambridge">
+      </datalist>
+      <button class="buttons" id='GuessInputButton'>Guess</button>
+    </div>
+    <div class='wrongGuesses strokemered' id="wrongAnswers"></div>
+    <button class="buttons" id='NewGameButton'>New game</button>
+  
+    <script src="langyle.js"></script>
+</body>
+
+</html>

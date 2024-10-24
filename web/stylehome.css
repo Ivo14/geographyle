@@ -1,0 +1,71 @@
+/* Ensure body and html take up full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Fix the background behavior */
+body {
+    background-image: url('./photos/spain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the background covers full viewport height */
+    
+    /* Center content using flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    background-color: rgba(100, 208, 203, 0.8); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 90%; /* Make sure the container doesn't overflow */
+    width: 400px;   /* Set a default width */
+}
+
+/* Styling the navigation links */
+nav a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+    width: 100%; /* Make buttons responsive */
+    box-sizing: border-box;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    nav a {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 20px;
+    }
+    nav a {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
