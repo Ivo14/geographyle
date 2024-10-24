@@ -57,8 +57,9 @@ let newgame = () => {
   MessageDiv.innerText='';
   GuessInput.value='';
     wrongGuessesDiv.innerText = '';
+    document.getElementById('temp').style.display='';
     GuessInputButtonDiv.style.display='inline'
-    GuessInputDiv.style.display='inline';
+    GuessInputDiv.style.display='';
     giveupButton.style.display='inline';
 NewGameButton.style.display = 'none';
   numberOfGuesses = 0;
@@ -76,6 +77,7 @@ numberOfGuesses = 0;
 }
 newgame();
 Win = () => {
+  MessageDiv.style='color: green'
   document.getElementById('temp').style.display='none';
   if (numberOfGuesses == 1) {  MessageDiv.innerText = `You won in ${numberOfGuesses} guess, the territory was indeed ${territory.name}.`; GuessInputButtonDiv.style.display = 'none'}
   else { MessageDiv.innerText = `You won in ${numberOfGuesses} guesses, the territory was indeed ${territory.name}.`; }
