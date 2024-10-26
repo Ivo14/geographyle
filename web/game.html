@@ -9,10 +9,15 @@
 </head> 
 
 <body id='body' class='cover'>
+  <div style="display: flex;">
+  <div id="navbar"></div>
+<script>
+  fetch('nav.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
   <nav>
   <ul>
-      <li><a href="/">Home</a></li>
-    <li><a href="https://github.com/Ivo14/geographyle">Source code</a></li>
     <form>
     <select id="lang-switch" class="buttons" onchange="localStorage.setItem('lang', document.getElementById('lang-switch').value);document.location.reload();">
         <option value="fr">🇫🇷 Français</option>
@@ -22,7 +27,8 @@
     </select>
     </form>
   </ul>
-</nav>
+  </nav>
+</div>
   <h2 id=Message class="strokemered " style="color: white"></h2>
 
 

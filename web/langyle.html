@@ -9,14 +9,14 @@
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body id=a >
-  <nav>
-    <ul>
-        <li><a href="/">Home</a></li>
-      <li><a href="https://github.com/Ivo14/langyle">Source code</a></li>
-    </ul>
-  </nav>
+  <div id="navbar"></div>
+<script>
+  fetch('nav.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
     <h2 id=Message class='description'style="color: rgb(255, 255, 255)">What's this language?</h2>
-    <p id="text"></p>
+    <p id="text" class='description'></p>
     <div>
     <span class="input">
         <input autofocus="" placeholder="Enter language" id='GuessInput' name="language" list="languages" type='text'>

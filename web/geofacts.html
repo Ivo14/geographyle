@@ -11,12 +11,12 @@
 </head>
 
 <body>
-  <nav>
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="https://github.com/Ivo14/geographyle">Source code</a></li>
-  </ul>
-</nav>
+  <div id="navbar"></div>
+<script>
+  fetch('nav.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
 
   <h1 class='description'id=fact></h1>
 <div display=flex>

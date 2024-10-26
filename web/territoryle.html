@@ -9,12 +9,12 @@
     <title>Territoryle</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
-<nav>
-  <ul>
-      <li><a href="/">Home</a></li>
-    <li><a href="https://github.com/Ivo14/langyle">Source code</a></li>
-  </ul>
-</nav>
+<div id="navbar"></div>
+<script>
+  fetch('nav.html')
+      .then(response => response.text())
+      .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
 <body>
     <h1 id=Message style="color: green"></h1>
   <div id=flag ></div>
