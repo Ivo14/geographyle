@@ -9,50 +9,20 @@ let giveupButton = document.getElementById('giveup')
 let NewGameButton = document.getElementById('NewGameButton')
 let numberOfGuesses = 0;
 let territory;
-let arr = [
-  { "name": "Aland Islands", "code": "AX", "capital": "Mariehamn" },
-  { "name": "American Samoa", "code": "AS", "capital": "Pago Pago" },
-  { "name": "Anguilla", "code": "AI", "capital": "The Valley" },
-  { "name": "Antarctica", "code": "AQ", "capital": "Antarctica" },
-  { "name": "Aruba", "code": "AW", "capital": "Oranjestad" },
-  { "name": "Bermuda", "code": "BM", "capital": "Hamilton" },
-  { "name": "Cayman Islands", "code": "KY", "capital": "George Town" },
-  { "name": "Christmas Island", "code": "CX", "capital": "Flying Fish Cove" },
-  { "name": "Cocos Islands", "code": "CC", "capital": "West Island" },
-  { "name": "Cook Islands", "code": "CK", "capital": "Avarua" },
-  { "name": "Curacao", "code": "CW", "capital": "Willemstad" },
-  { "name": "Falkland Islands", "code": "FK", "capital": "Stanley" },
-  { "name": "Faroe Islands", "code": "FO", "capital": "Torshavn" },
-  { "name": "French Polynesia", "code": "PF", "capital": "Papeete" },
-  { "name": "French Southern Territories", "code": "TF", "capital": "Port-aux-Francais" },
-  { "name": "Gibraltar", "code": "GI", "capital": "Gibraltar" },
-  { "name": "Greenland", "code": "GL", "capital": "Nuuk" },
-  { "name": "Guam", "code": "GU", "capital": "Hagatna" },
-  { "name": "Guernsey", "code": "GG", "capital": "St Peter Port" },
-  { "name": "Hong Kong", "code": "HK", "capital": "Hong Kong" },
-  { "name": "Isle of Man", "code": "IM", "capital": "Douglas" },
-  { "name": "Jersey", "code": "JE", "capital": "Saint Helier" },
-  { "name": "Macao", "code": "MO", "capital": "Macao" },
-  { "name": "Martinique", "code": "MQ", "capital": "Fort-de-France" },
-  { "name": "Mayotte", "code": "YT", "capital": "Mamoudzou" },
-  { "name": "Montserrat", "code": "MS", "capital": "Plymouth" },
-  { "name": "New Caledonia", "code": "NC", "capital": "Noumea" },
-  { "name": "Niue", "code": "NU", "capital": "Alofi" },
-  { "name": "Norfolk Island", "code": "NF", "capital": "Kingston" },
-  { "name": "Northern Mariana Islands", "code": "MP", "capital": "Saipan" },
-  { "name": "Pitcairn", "code": "PN", "capital": "Adamstown" },
-  { "name": "Puerto Rico", "code": "PR", "capital": "San Juan" },
-  { "name": "Reunion", "code": "RE", "capital": "Saint-Denis" },
-  { "name": "Saint Helena", "code": "SH", "capital": "Jamestown" },
-  { "name": "Saint Martin", "code": "MF", "capital": "Marigot" },
-  { "name": "South Georgia and the South Sandwich Islands", "code": "GS", "capital": "Grytviken" },
-  { "name": "Tokelau", "code": "TK", "capital": "" },
-  { "name": "Turks and Caicos Islands", "code": "TC", "capital": "Cockburn Town" },
-  { "name": "British Virgin Islands", "code": "VG", "capital": "Road Town" },
-  { "name": "US Virgin Islands", "code": "VI", "capital": "Charlotte Amalie" },
-  { "name": "Wallis and Futuna", "code": "WF", "capital": "Mata Utu" },
-  { "name": "Western Sahara", "code": "EH", "capital": "El-Aaiun" }
-];
+let arr = [];
+fetch('/data/territories.json')
+  .then(response => response.json()) 
+  .then(data => {
+     arr = data;
+     const datalist = document.getElementById("countries");
+    arr.forEach(country => {
+      const option = document.createElement("option");
+      option.value = country.name;
+      datalist.appendChild(option);
+    });
+    newgame();
+   
+})
 let newgame = () => {
   MessageDiv.innerText='';
   GuessInput.value='';
@@ -75,7 +45,7 @@ if (territory.capital == '') CapitalDiv.innerText = `This territory does not hav
 else CapitalDiv.innerText = `Capital: ${territory.capital}`
 numberOfGuesses = 0;
 }
-newgame();
+
 Win = () => {
   MessageDiv.style='color: green'
   document.getElementById('temp').style.display='none';
@@ -104,16 +74,7 @@ giveupButton.onclick = () => { document.getElementById('temp').style.display='no
 GuessInput.addEventListener("keydown", (k) => {
   if (k.keyCode == 13 && MessageDiv.innerText == ``) { checker() }
 })
-let l=document.getElementById('countries')
-for (let i =0;i<arr.length;i++) l.options[i].value=arr[i].name
 
-
-var dropdown = document.querySelectorAll(".dropdown");
-for (var i = 0; i < dropdown.length; i++) {
-  dropdown[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-  });
-}
 
 NewGameButton.onclick = () =>{
   newgame();
