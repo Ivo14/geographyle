@@ -7,6 +7,7 @@ body{
     margin:auto;
     background-image: url('./photos/spain.jpg');
     align-items: center;
+    
   }
   
   .strokemegreen
@@ -69,8 +70,8 @@ body{
     padding-right: 10%;
     padding-left: 10%;
     line-height:1;
-    margin-bottom: 1%;
-    margin-top: 1%;
+    margin-bottom: 1.8%;
+    margin-top: 1.2%;
   }
 
   .buttons {
@@ -88,9 +89,10 @@ body{
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: fit-content;
-    word-break: break-word;
-    border: 0;
+    border: none;
+    font-size: 0.6em;
+    height: 48px;
+    margin-top: 3px;
   }
   
   .red-button {
@@ -98,7 +100,7 @@ body{
   }
 
   .wrongGuesses {
-    color: red; margin-top:10px"
+    color: red; margin-top:10px;
   }
 
 
@@ -107,30 +109,30 @@ body{
     font-weight: bold;
     text-align: center;
     display: flex;
-    flex-direction: column; 
-    background-color: rgba(100, 208, 203, 0.8); 
+    flex-direction: column;
+    background-color: rgba(51, 99, 151, 0);
     padding: 20px;
     border-radius: 10px;
-    max-width: 90%; 
-    width: 400px;   
-    
-}
+    max-width: 80%;
+    width: 700px;
+    scale: 1.2;
+    margin-bottom: 9%;
+  }
 
 .homecontainer {
+  margin-bottom: 15px;
   text-decoration: none;
-  margin: 10px;
-  padding: 10px 20px;
-  background-color: #3498db;
-  color: white;
+  padding: 12px 20px;
+  background-color: #e0ebf2;
+  color: #1938b0e3;
   border-radius: 5px;
   font-size: 18px;
   display: inline-block;
-  width: 100%; 
+  width: 60%;
   box-sizing: border-box;
 }
-
 .homecontainer:hover {
-  background-color: #2980b9;
+  background-color: #21bfd9;
 }
 
 
@@ -159,13 +161,17 @@ body{
 
 
 
-
+  .input-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
 
   .input {
     position:relative;
     font-size: 1em;
     background: linear-gradient(21deg, #10abff, #1beabd);
-    padding: 3px;
+    padding: 5px;
     display: inline-block;
     border-radius: 9999em;
     *:not(span) {
@@ -186,15 +192,13 @@ body{
         3px -3px 15px #1beabd, 
         -3px 3px 15px #10abff;
     }
-    
   }
   
   html {
-    line-height:1;
+    line-height: 1.2;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size:1.5em;
+    font-size: 1.5em;
   }
-
   
   html, body {
     height:100%;

@@ -736,10 +736,6 @@
         "trueorfalse": "false"
     },
     {
-        "text": "English has the shortest grammatically correct sentence.",
-        "trueorfalse": "true"
-    },
-    {
         "text": "North Korea and South Korea speak different languages.",
         "trueorfalse": "false"
     },
@@ -784,7 +780,75 @@
         "trueorfalse": "true"
     },
     {
-        "text": "The currency of Switzerland is the Euro",
+        "text": "The currency of Switzerland is the Euro.",
         "trueorfalse": "false"
+    },
+    {
+        "text": "K2 is the second-highest mountain on Earth.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Mount Everest is known locally as Sagarmatha or Qomolangma.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Latin is a classical language belonging to the Italic branch of the Indo-European languages.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Romanian is a Romance language.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The largest and highest plateau in the world is the Tibetan Plateau",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The upper mantle of Earth is the rigid, outermost rocky shell of a terrestrial planet or natural satellite.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Earth's inner core is a liquid.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Earth's inner core is about 20% of the Moon's radius.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Earth's outer core is a solid ball with a radius of about 1,220 km.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "British Columbia is a territory which belongs to the UK.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Quebec is the largest province of Canada by population.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Ontario is the largest province of Canada by total area.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Toronto is the capital of Canada.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Nunavut is the largest territory of Canada.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Lake Baikal in Russia is the deepest lake in the world",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Bangladesh is surrounded on three sides by India",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Lake Superior is the largest freshwater lake by surface area",
+        "trueorfalse": "true"
     }
 ]

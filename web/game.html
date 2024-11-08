@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <title>Geographyle</title>
   <link rel="icon" type="image/x-icon" href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
-
+  <link href="style.css" rel="stylesheet" type="text/css" />
 </head> 
 
 <body id='body' class='cover'>
@@ -17,32 +17,31 @@
       .then(data => document.getElementById('navbar').innerHTML = data);
 </script>
   <nav>
-  <ul>
+ 
     <form>
     <select id="lang-switch" class="buttons" onchange="localStorage.setItem('lang', document.getElementById('lang-switch').value);document.location.reload();">
         <option value="fr">🇫🇷 Français</option>
-        <option value="es" selected>🇪🇦 Español</option>
-      <option value="en" selected>🇬🇧 English</option>
+        <option value="es">🇪🇦 Español</option>
+      <option value="en" >🇬🇧 English</option>
       <option value="en" disabled selected>Language</option>
     </select>
     </form>
-  </ul>
   </nav>
 </div>
-  <h2 id=Message class="strokemered " style="color: white"></h2>
+  <h2 id=Message class="strokemered "></h2>
 
-
-    <span class="input">
-      <input autofocus="" type="text"placeholder="Enter country" id='GuessInput' name="country" list="countries" type='text'>
-    </span>
-    
   <datalist id="countries">
   </datalist>
 
-  <button class="buttons" id='GuessInputButton'>Guess</button>
+  <div class="input-container">
+    <span class="input">
+      <input autofocus="" type="text" placeholder="Enter country" id='GuessInput' name="country" list="countries" >
+    </span>
+    <button class="buttons" id='GuessInputButton'>Guess</button>
+  </div>
 
 
-</div> 
+
   <div id=Description class="strokeme f description" style=margin-top:10px;font-size:130%;color:white></div>
 
   <div id=capital class="strokeme f" style="margin-top:10px;font-size:130%;color:white"></div>
@@ -52,8 +51,6 @@
  <div id=maplocation></div>
 
 <button class="buttons" id=NewGameButton style=display:none>New game</button>
-</body>
-
 <script src="script.js"></script>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+</body>
 </html>
