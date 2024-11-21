@@ -4,28 +4,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="icon" type="image/x-icon" href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
+  <link rel="icon" type="image/x-icon"
+    href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
 
-    <title>Territoryle</title>
+  <title>Territoryle</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <div id="navbar"></div>
 <script>
   fetch('nav.html')
-      .then(response => response.text())
-      .then(data => document.getElementById('navbar').innerHTML = data);
+    .then(response => response.text())
+    .then(data => document.getElementById('navbar').innerHTML = data);
 </script>
+
 <body>
-    <h1 id=Message style="color: green"></h1>
-  <div id=flag ></div>
-<div class='description' id=capital></div>
-  <span id='temp' class="input"><input autofocus="" id='GuessInput' placeholder="Enter territory" list='countries' type='text'></span>
+  <h1 id=Message style="color: green"></h1>
+  <div id=flag></div>
+  <div class='description' id=capital></div>
+  <span id='temp' class="input"><input autofocus="" id='GuessInput' placeholder="Enter territory" list='countries'
+      type='text'></span>
   <datalist id="countries">
   </datalist>
   <button class='buttons' id='GuessInputButton'>Guess</button>
-    <button class='buttons red-button' id='giveup'>Give up</button>
-    <button class="buttons" id=NewGameButton style=display:none>New game</button>
-    <div id=wrongGuesses class=wrongGuesses></div>
-    <script src="territoryle.js"></script>
+  <button class='buttons red-button' id='giveup'>Give up</button>
+  <button class="buttons" id=NewGameButton style=display:none>New game</button>
+  <div id=wrongGuesses class=wrongGuesses></div>
+  <script src="territoryle.js"></script>
 </body>
+
 </html>

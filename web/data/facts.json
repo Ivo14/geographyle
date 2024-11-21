@@ -64,7 +64,7 @@
         "trueorfalse": "false"
     },
     {
-        "text": "Istanbul was the European Cultural Capital City in 2010",
+        "text": "Istanbul was the European Cultural Capital City in 2010.",
         "trueorfalse": "true"
     },
     {
@@ -84,7 +84,7 @@
         "trueorfalse": "true"
     },
     {
-        "text": "The capital of China is Hong Kong",
+        "text": "The capital of China is Hong Kong.",
         "trueorfalse": "false"
     },
     {
@@ -222,10 +222,6 @@
     {
         "text": "The United States and Canada share the longest international border.",
         "trueorfalse": "true"
-    },
-    {
-        "text": "The most populous city in the world is Tokyo.",
-        "trueorfalse": "false"
     },
     {
         "text": "Benin is in Asia.",
@@ -552,8 +548,8 @@
         "trueorfalse": "true"
     },
     {
-        "text": "India has 11 official languages.",
-        "trueorfalse": "true"
+        "text": "India has 5 official languages.",
+        "trueorfalse": "false"
     },
     {
         "text": "India's telecommunication industry is the largest in the world",
@@ -850,5 +846,97 @@
     { 
         "text": "Lake Superior is the largest freshwater lake by surface area",
         "trueorfalse": "true"
+    },
+    { 
+        "text": "Spain has more than 1 desert.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Serbia has a desert.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "There is such a thing called the \"European Sahara\".",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Malaysia is a megadiverse country.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Ecuador has a higher biodiversity index than the USA.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Albania used to be called Arbanon.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Barbados used to be called British Honduras.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "The Hungarian exonym is Magyarország",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "Norway has one of the lowest rates of recidivism in the world.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "There are more Shinto shrines in Japan than Hindu temples in India",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "Honshu has a larger area than Sumatra.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "Borneo has a larger area than New Guinea (island).",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "The USA has a higher biodiversity index than Mexico.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "The Quetta Railway Station is in Iran.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "Belarus is the only country that borders both mainland Russia and the exclave of Russia.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "The USA is part of the Commonwealth of Nations.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "\"Unity makes strength\" is a motto that is used by Bulgaria exclusively.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "\"Unity makes strength\" is the national motto of Belgium, Bolivia, Bulgaria, Georgia and Malaysia.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "Estonia has the shortest national anthem.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "El salvador has the longest national anthem.",
+        "trueorfalse": "false"
+    },
+    { 
+        "text": "Helsinki has only one metro line",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "An isthmus is a narrow piece of land connecting two larger areas across an expanse of water by which they are otherwise separated.",
+        "trueorfalse": "true"
+    },
+    { 
+        "text": "A peninsula is a narrow piece of land connecting two larger areas across an expanse of water by which they are otherwise separated.",
+        "trueorfalse": "false"
     }
 ]
