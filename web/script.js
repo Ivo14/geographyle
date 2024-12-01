@@ -2,7 +2,7 @@ let DescriptionDiv = document.getElementById('Description')
 let CapitalDiv = document.getElementById('capital')
 let FlagIMG = document.getElementById('flag')
 let maplocationDiv = document.getElementById('maplocation')
-let armorialDiv= document.getElementById('armorial')
+let armorialDiv = document.getElementById('armorial')
 let GuessInputDiv = document.getElementById('GuessInput')
 let GuessInputButtonDiv = document.getElementById('GuessInputButton')
 let MessageDiv = document.getElementById('Message')
@@ -10,6 +10,8 @@ let NewGameButton = document.getElementById('NewGameButton')
 let picDiv = document.getElementById('pic')
 let body = document.querySelector('body')
 let lang = document.getElementById('lang-switch')
+let capitaltxt = 'Capital';
+let descriptiontxt = 'Description';
 if (localStorage.lang == undefined) localStorage.lang = "en";
 lang.options[lang.selectedIndex].value = localStorage.lang;
 let numberOfGuesses = 0
@@ -29,6 +31,8 @@ fetch('/data/countries.json')
       if (localStorage.lang == 'es') option.value = country.namees;
       if (localStorage.lang == 'en') option.value = country.name;
       if (localStorage.lang == 'fr') option.value = country.namefr;
+      if (localStorage.lang == 'bg') option.value = country.namebg;
+      if (localStorage.lang == 'de') option.value = country.namede;
       datalist.appendChild(option);
     });
     game1();
@@ -41,7 +45,10 @@ let randomwintxtsfr = [{ text: 'Bon travail c\'est vraiment' }, { text: 'Heureus
 let randomwintxtslosefr = [{ text: 'Tu as perdu, malheureusement, vous avez perdu, le pays était' }, { text: 'Tu as perdu, difficile, c\'était' }, { text: 'Tu as perdu, comment tu n\'as pas pensé à' }, { text: 'Tu as perdu, c\'est juste' }, { text: 'Tu as perdu, le pays que vous recherchiez était' }]
 let randomwintxtses = [{ text: 'Bien hecho, tí@, de verdad es' }, { text: 'Has ganado, fue obvio que es' }, { text: 'Has ganado, afortunadamente para ti es' }, { text: 'Has ganado, sí, es' }, { text: 'Has ganado, fue' }]
 let randomwintxtslosees = [{ text: 'Has perdido, realmente es' }, { text: 'Has perdido, el país fue' }, { text: 'Has perdido, desafortunadamente para ti es' }, { text: 'Has perdido, es' }, { text: 'Has perdido, fue obvio que es' }]
-
+let randomwintxtslosebg = [{ text: 'Загуби, всъщност е' }, { text: 'Загуби, държавата е' }, { text: 'Загуби, за жалост държавата е' }, { text: 'Загуби, беше очевидно, че е' }]
+let randomwintxtslosede = [{ text: 'Du hast verloren, es ist eigentlich' }, { text: 'Du hast verloren, das Land war' }, { text: 'Du hast verloren, bedauerlicherweise das Land war' }, { text: 'Du hast verloren, es war offensichtlich' }]
+let randomwintxtsbg = [{ text: 'Спечели, наистина е' }, { text: 'Спечели! Беше очевидно, че е' }, { text: 'Спечели! За твое щастие, беше' }]
+let randomwintxtsde = [{ text: 'Du hast gewonnen! Das Land war' }]
 function changelang(country, language) {
   switch (language) {
     case 'en':
@@ -51,6 +58,30 @@ function changelang(country, language) {
       for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslose[i]; }
       GuessInputButton.innerText = "Guess";
       NewGameButton.innerText = "New game";
+      capitaltxt = 'Capital';
+      descriptiontxt = 'Description';
+      break;
+    case 'bg':
+      country.description = country.descriptionbg;
+      country.name = country.namebg;
+      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtsbg[i]; }
+      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosebg[i]; }
+      GuessInputButton.innerText = "Познай";
+      NewGameButton.innerText = "Нова игра";
+      GuessInputDiv.placeholder = "Въведи държава"
+      capitaltxt = 'Столица';
+      descriptiontxt = 'Описание';
+      break;
+    case 'de':
+      country.description = country.descriptionde;
+      country.name = country.namede;
+      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtsde[i]; }
+      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosede[i]; }
+      GuessInputButton.innerText = "Errate";
+      NewGameButton.innerText = "Neues Spiel";
+      GuessInputDiv.placeholder = "Land betreten"
+      capitaltxt = 'Hauptstadt';
+      descriptiontxt = 'Beschreibung';
       break;
     case 'es':
       country.description = country.descriptiones;
@@ -60,6 +91,8 @@ function changelang(country, language) {
       GuessInputButton.innerText = "Adivina";
       NewGameButton.innerText = "Nuevo juego";
       GuessInputDiv.placeholder = "Introducir país";
+      capitaltxt = 'Capital';
+      descriptiontxt = 'Descripción';
       break;
     case 'fr':
       country.description = country.descriptionfr;
@@ -69,6 +102,8 @@ function changelang(country, language) {
       GuessInputButton.innerText = "Deviner";
       NewGameButton.innerText = "Nouveau jeu";
       GuessInputDiv.placeholder = "Saisir le pays"
+      capitaltxt = 'Capital';
+      descriptiontxt = 'Description';
       break;
     default:
       country.description = country.description;
@@ -84,6 +119,12 @@ let changelang1 = (country, language) => {
   switch (language) {
     case 'en':
       country.name = country.name;
+      break;
+    case 'bg':
+      country.name = country.namebg;
+      break;
+    case 'de':
+      country.name = country.namede;
       break;
     case 'es':
       country.name = country.namees;
@@ -103,17 +144,17 @@ let changelang1 = (country, language) => {
 
 
 let game1 = () => {
- 
+
   country = arrcountries[Math.floor(Math.random() * arrcountries.length)]
 
   changelang(country, localStorage.lang);
 
-  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 width = 250 >`
-  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 width = 250 >`
+  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 width = 250 draggable="false" >`
+  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 width = 250 draggable="false">`
   //country.flag=`https://countryflagsapi.com/png/${country.code}`
   if (country.flag == undefined) { country.flag = `https://flagsapi.com/${country.code.toUpperCase()}/shiny/64.png` }
   FlagIMG.style.display = 'none'
-  FlagIMG.innerHTML = `<img src = ${country.flag}>`
+  FlagIMG.innerHTML = `<img src = ${country.flag} draggable="false"/>`
   maplocationDiv.style.display = 'none'
   armorialDiv.style.display = 'none'
   if (country.picture != undefined) body.style.backgroundImage = `url(${country.picture})`
@@ -164,15 +205,15 @@ Lose = () => {
 NewHint = () => {
   GuessInputDiv.value = ''
   if (!country.description) {
-    if (CapitalDiv.innerText != `Capital: ${country.capital}`) { CapitalDiv.innerText = `Capital: ${country.capital}` }
+    if (CapitalDiv.innerText != `${capitaltxt}: ${country.capital}`) { CapitalDiv.innerText = `${capitaltxt}: ${country.capital}` }
     else if (FlagIMG.style.display == 'none') { FlagIMG.style.display = 'inherit' }
     else if (armorialDiv.style.display == 'none') { armorialDiv.style.display = 'block' }
   }
   else {
-    if (DescriptionDiv.innerText != `Description: ${country.description}` && NotWriting) {
+    if (DescriptionDiv.innerText != `${descriptiontxt}: ${country.description}` && NotWriting) {
 
       var p = 0;
-      var txt = `Description: ${country.description}`
+      var txt = `${descriptiontxt}: ${country.description}`
       var speed = 10;
 
       function typeWriter() {
@@ -187,10 +228,10 @@ NewHint = () => {
       typeWriter();
       //DescriptionDiv.innerText = `Description: ${country.description}` 
     }
-    else if (CapitalDiv.innerText != `Capital: ${country.capital}` && NotWriting2) {
+    else if (CapitalDiv.innerText != `${capitaltxt}: ${country.capital}` && NotWriting2) {
 
       var q = 0;
-      var txt2 = `Capital: ${country.capital}`
+      var txt2 = `${capitaltxt}: ${country.capital}`
       var speed2 = 10;
 
       function typeWriter2() {

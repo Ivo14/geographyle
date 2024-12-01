@@ -233,6 +233,37 @@ body{
   }
 
 
+  .zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(2.5); 
+  }
 
+  .card {
+    height: 430px;
+    width:450px;
+    border-color: #11e821;
+    margin: 20px 20px 20px 20px;
+    background-color:#7da89f;;
+    border-radius: 10%;
+    color: #000;
+    border: 2px solid #ccc; 
+  }
 
+  .miniflag {
+    width: 40px;
+    height: 40px;
+  }
 
+  .minidescription {
+    font-size: 15px;
+  }
+
+  .cardholder {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0.5em;
+  }

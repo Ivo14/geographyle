@@ -42,8 +42,8 @@ Win = () => {
   localStorage.streak++;
   MessageDiv.style='color: green'
   document.getElementById('temp').style.display='none';
-  if (numberOfGuesses == 1) {  MessageDiv.innerText = `You won in ${numberOfGuesses} guess, the country was indeed ${country.name}.`; GuessInputButtonDiv.style.display = 'none'}
-  else { MessageDiv.innerText = `You won in ${numberOfGuesses} guesses, the country was indeed ${country.name}.`; }
+  if (numberOfGuesses == 1) {  MessageDiv.innerText = `You won in ${numberOfGuesses} guess, the country was indeed ${country.name}. Streak: ${localStorage.streak}`; GuessInputButtonDiv.style.display = 'none'}
+  else { MessageDiv.innerText = `You won in ${numberOfGuesses} guesses, the country was indeed ${country.name}. Streak: ${localStorage.streak}`; }
   GuessInputButtonDiv.style.display = 'none'
   giveupButton.style.display = 'none'
   GuessInputDiv.style.display='none'

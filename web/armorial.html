@@ -16,9 +16,9 @@
       .then(data => document.getElementById('navbar').innerHTML = data);
 </script>
 <body>
-    <h1 id=Message style="color: green"></h1>
+    <h1 id=Message class='readable' style="color: green"></h1>
   <div id=armorial></div>
-  <span id='temp' class="input"><input autofocus="" id='GuessInput' placeholder="Enter territory" list='countries' type='text'></span>
+  <span id='temp' class="input"><input autofocus="" id='GuessInput' placeholder="Enter country" list='countries' type='text'></span>
   <datalist id="countries">
   </datalist>
   <button class='buttons' id='GuessInputButton'>Guess</button>
