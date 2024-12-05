@@ -1,14 +1,21 @@
 let cardsContainer = document.getElementById('cards')
+let NewGameButton = document.getElementById('NewGameButton')
+let text = document.getElementById('message')
+localStorage.streak = 0;
+//NewGameButton.style.display = 'none'
 let arr = [];
-fetch('/data/countries.json')
-    .then(response => response.json())
-    .then(data => {
-        arr = data;
-    }).then(
-        generate
-    )
 
+function newgame() {
+    fetch('/data/countries.json')
+        .then(response => response.json())
+        .then(data => {
+            arr = data;
+        }).then(
+            generate
+        )
+}
 function generate() {
+    cardsContainer.innerHTML = ''
     let numberOfcards = 6;
     const shuffled = arr.sort(() => 0.5 - Math.random());
     const selected = shuffled.slice(0, numberOfcards);
@@ -18,22 +25,28 @@ function generate() {
     do { replace = Math.floor(Math.random() * arr.length); console.log(arr[replace]) } while (arr[replace] == country)
     switch (type) {
         case 1:
+            temp = country.name
             country.name = arr[replace].name;
             break;
         case 2:
+            temp = country.code
             country.code = arr[replace].code;
             country.flag = arr[replace].flag;
             break;
         case 3:
+            temp = country.capital
             country.capital = arr[replace].capital;
             break;
         case 4:
+            temp = country.maplocation
             country.maplocation = arr[replace].maplocation;
             break;
         case 5:
+            temp = country.armorial
             country.armorial = arr[replace].armorial;
             break;
         case 6:
+            temp = country.description
             country.description = arr[replace].description;
             break;
     }
@@ -54,9 +67,18 @@ function generate() {
         `;
 
         cardsContainer.appendChild(card);
+
     }
     let odd = document.getElementById(`${type}${num}`);
     odd.onclick = function () {
-        odd.style.color = 'lime'; odd.style.background = '#5fbd5f'
+        if (NewGameButton.style.display == 'none') {
+            localStorage.streak++; text.innerText = `You got it! Streak: ${localStorage.streak}`
+            odd.style.color = 'lime'; odd.style.background = '#5fbd5f'
+            NewGameButton.style.display = 'inline'
+        }
+    }
+    NewGameButton.onclick = () => {
+        { NewGameButton.style.display = 'none'; text.innerText = ''; newgame(); }
     }
 }
+newgame();

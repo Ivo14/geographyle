@@ -55,7 +55,7 @@ function changelang(country, language) {
       country.description = country.description;
       country.name = country.name;
       for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxts[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslose[i]; }
+      for (let i = 0; i < randomwintxtslose.length; i++) { randomwintxtsloseMain[i] = randomwintxtslose[i]; }
       GuessInputButton.innerText = "Guess";
       NewGameButton.innerText = "New game";
       capitaltxt = 'Capital';
@@ -64,8 +64,8 @@ function changelang(country, language) {
     case 'bg':
       country.description = country.descriptionbg;
       country.name = country.namebg;
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtsbg[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosebg[i]; }
+      for (let i = 0; i < randomwintxtsbg.length; i++) { randomwintxtsMain[i] = randomwintxtsbg[i]; }
+      for (let i = 0; i < randomwintxtslosebg.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosebg[i]; }
       GuessInputButton.innerText = "Познай";
       NewGameButton.innerText = "Нова игра";
       GuessInputDiv.placeholder = "Въведи държава"
@@ -75,8 +75,8 @@ function changelang(country, language) {
     case 'de':
       country.description = country.descriptionde;
       country.name = country.namede;
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtsde[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosede[i]; }
+      for (let i = 0; i < randomwintxtsde.length; i++) { randomwintxtsMain[i] = randomwintxtsde[i]; }
+      for (let i = 0; i < randomwintxtslosede.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosede[i]; }
       GuessInputButton.innerText = "Errate";
       NewGameButton.innerText = "Neues Spiel";
       GuessInputDiv.placeholder = "Land betreten"
@@ -86,8 +86,8 @@ function changelang(country, language) {
     case 'es':
       country.description = country.descriptiones;
       country.name = country.namees;
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtses[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosees[i]; }
+      for (let i = 0; i < randomwintxtses.length; i++) { randomwintxtsMain[i] = randomwintxtses[i]; }
+      for (let i = 0; i < randomwintxtslosees.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosees[i]; }
       GuessInputButton.innerText = "Adivina";
       NewGameButton.innerText = "Nuevo juego";
       GuessInputDiv.placeholder = "Introducir país";
@@ -97,8 +97,8 @@ function changelang(country, language) {
     case 'fr':
       country.description = country.descriptionfr;
       country.name = country.namefr;
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxtsfr[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosefr[i]; }
+      for (let i = 0; i < randomwintxtsfr.length; i++) { randomwintxtsMain[i] = randomwintxtsfr[i]; }
+      for (let i = 0; i < randomwintxtslosefr.length; i++) { randomwintxtsloseMain[i] = randomwintxtslosefr[i]; }
       GuessInputButton.innerText = "Deviner";
       NewGameButton.innerText = "Nouveau jeu";
       GuessInputDiv.placeholder = "Saisir le pays"
@@ -149,8 +149,8 @@ let game1 = () => {
 
   changelang(country, localStorage.lang);
 
-  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 width = 250 draggable="false" >`
-  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 width = 250 draggable="false">`
+  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 draggable="false" >`
+  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 draggable="false">`
   //country.flag=`https://countryflagsapi.com/png/${country.code}`
   if (country.flag == undefined) { country.flag = `https://flagsapi.com/${country.code.toUpperCase()}/shiny/64.png` }
   FlagIMG.style.display = 'none'
@@ -164,12 +164,12 @@ let game = () => {
   cleanUp();
   country = arrcountries[Math.floor(Math.random() * arrcountries.length)]
   changelang(country, localStorage.lang);
-  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 width = 250 >`
-  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 width = 250 >`
+  maplocationDiv.innerHTML = `<img src = ${country.maplocation} height = 250 draggable="false">`
+  armorialDiv.innerHTML = `<img src = ${country.armorial} height = 250 draggable="false">`
   //country.flag=`https://countryflagsapi.com/png/${country.code}`
   if (country.flag == undefined) { country.flag = `https://flagsapi.com/${country.code.toUpperCase()}/shiny/64.png` }
   FlagIMG.style.display = 'none'
-  FlagIMG.innerHTML = `<img src = ${country.flag}>`
+  FlagIMG.innerHTML = `<img src = ${country.flag} draggable="false">`
   maplocationDiv.style.display = 'none'
   armorialDiv.style.display = 'none'
   body.style.backgroundImage = `url(${country.picture})`
@@ -179,11 +179,11 @@ newgamecheck = () => {
   else setTimeout(newgamecheck, 1000)
 }
 Win = () => {
-
+  MessageDiv.style.display = '';
   localStorage.streak++;
   MessageDiv.classList.add('strokemegreen');
   MessageDiv.classList.remove('strokemered');
-  let randomwintext = randomwintxtsMain[Math.floor(Math.random() * randomwintxts.length)]
+  let randomwintext = randomwintxtsMain[Math.floor(Math.random() * randomwintxtsMain.length)]
 
   gameEnded = true;
   MessageDiv.innerText = `${randomwintext.text} ${country.name}. Streak: ${localStorage.streak}`;
@@ -192,7 +192,7 @@ Win = () => {
   newgamecheck()
 }
 Lose = () => {
-
+  MessageDiv.style.display = '';
   MessageDiv.classList.add('strokemered');
   MessageDiv.classList.remove('strokemegreen');
   let randomwintext = randomwintxtsloseMain[Math.floor(Math.random() * randomwintxtsloseMain.length)]
@@ -271,6 +271,7 @@ let cleanUp = () => {
   FlagIMG.innerHTML = ''
   maplocationDiv.innerHTML = ''
   MessageDiv.innerText = ''
+  MessageDiv.style.display = 'none';
   numberOfGuesses = 0
   GuessInputButtonDiv.style.display = ''
   NewGameButton.style.display = 'none'

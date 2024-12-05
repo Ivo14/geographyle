@@ -13,7 +13,12 @@ fetch('/data/facts.json')
 let currentfact;
 let newfact = () => {
   currentfact = facts[Math.floor(Math.random() * facts.length)]
-  fact.innerText = currentfact.text
+  fact.innerText = currentfact.text;
+  if(currentfact.link) {
+    
+fact.innerHTML+=`<a href="${currentfact.link}" target="_blank" style="text-decoration:none"> ℹ️</a>`
+
+  }
 }
 green.onclick = () => {
   if (currentfact.trueorfalse == 'true') {

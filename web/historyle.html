@@ -16,19 +16,6 @@
       .then(response => response.text())
       .then(data => document.getElementById('navbar').innerHTML = data);
 </script>
-  <nav>
- 
-    <form>
-    <select id="lang-switch" class="buttons" onchange="localStorage.setItem('lang', document.getElementById('lang-switch').value);document.location.reload();">
-        <option value="fr">🇫🇷 Français</option>
-        <option value="es">🇪🇦 Español</option>
-      <option value="en" >🇬🇧 English</option>
-      <option value="bg">🇧🇬 Български</option>
-      <option value="de">🇩🇪 Deutsch</option>
-      <option value="en" disabled selected>Language</option>
-    </select>
-    </form>
-  </nav>
 </div>
   <h2 id=Message class="strokemered readable"></h2>
 
@@ -51,9 +38,9 @@
   <div id=flag></div>
 <div style="display:flex;justify-content: center;gap:220px">
  <div id=maplocation class="zoom"></div>
- <div id=armorial class="readablearmorial"></div>
+ <div id=armorial></div>
 </div>
 <button class="buttons" id=NewGameButton style=display:none>New game</button>
-<script src="script.js"></script>
+<script src="protocountries.js"></script>
 </body>
 </html>

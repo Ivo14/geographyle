@@ -324,7 +324,7 @@
         "trueorfalse": "true"
     },
     {
-        "text": "Georgia has more population than Mauritania",
+        "text": "Georgia has a larger population than Mauritania",
         "trueorfalse": "false"
     },
     {
@@ -404,7 +404,11 @@
         "trueorfalse": "false"
     },
     {
-        "text": "India has more population than Russia.",
+        "text": "India has a larger population than Russia.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Bangladesh has a larger population than Russia.",
         "trueorfalse": "true"
     },
     {
@@ -484,7 +488,7 @@
         "trueorfalse": "true"
     },
     {
-        "text": "Nigeria has more population than France.",
+        "text": "Nigeria has a larger population than France.",
         "trueorfalse": "true"
     },
     {
@@ -636,7 +640,7 @@
         "trueorfalse": "false"
     },
     {
-        "text": "Slovenia has a higher population than Cyprus.",
+        "text": "Slovenia has a larger population than Cyprus.",
         "trueorfalse": "true"
     },
     {
@@ -937,6 +941,146 @@
     },
     { 
         "text": "A peninsula is a narrow piece of land connecting two larger areas across an expanse of water by which they are otherwise separated.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Jeju-Seoul is the busiest flight route in the world.",
+        "trueorfalse": "true",
+        "link": "https://www.youtube.com/watch?v=xP5UPn7rTdQ"
+    },
+    {
+        "text": "Tokyo-Sapporo is the busiest flight route in the world.",
+        "trueorfalse": "false",
+        "link": "https://www.youtube.com/watch?v=xP5UPn7rTdQ"
+    },
+    {
+        "text": "London Has 3 Airports.",
+        "trueorfalse": "false",
+        "link": "https://www.youtube.com/watch?v=zQM6jDjZFek"
+    },
+    {
+        "text": "The endonym for Hungary is Magyarország.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Baltic sea is bigger than the North sea.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Indian ocean is bigger than the Atlantic ocean.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Australia is bigger than Antarctica.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Japan's flag has a circle on it.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Mexico's flag has a star on it.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Moldova's flag has a star on it.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Andorra's flag has a star on it.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Sakhalin is Russia's biggest island.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Japan and Russia have a territorial dispute.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Japan has a territorial dispute with every neighbouring country.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Severny is Russia's biggest island.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Baffin is Canada's biggest island.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Ellesmere is Canada's biggest island.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Newfoundland is Canada's biggest island.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Amsterdam has the biggest port in Europe.",
+        "trueorfalse": "false",
+        "link": "https://www.youtube.com/watch?v=KDtnWo4-Dz4"
+    },
+    {
+        "text": "Rotterdam has the biggest port in Europe.",
+        "trueorfalse": "true",
+        "link": "https://www.youtube.com/watch?v=KDtnWo4-Dz4"
+    },
+    {
+        "text": "Lisbon has the biggest port in Europe.",
+        "trueorfalse": "false",
+        "link": "https://www.youtube.com/watch?v=KDtnWo4-Dz4"
+    },
+    {
+        "text": "Socotra is Africa's biggest island.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Madagascar is Africa's biggest island.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Lithuania is bigger than Latvia.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Lithuania is smaller than Latvia.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Lithuania's longest border is with Latvia.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Lithuania's longest border is with Belarus.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Greenland is the largest island country in the world.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Indonesia consists of over 17,000 islands.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The motto of Indonesia is \"Unity in Diversity\".",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Half of Africa's GDP comes from just 3 countries.",
+        "trueorfalse": "false",
+        "link":"https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
+    },
+    {
+        "text": "Half of Africa's GDP comes from just 5 countries.",
+        "trueorfalse": "true",
+        "link":"https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
+    },
+    {
+        "text": "The flag of the Philippines has two colors on it.",
         "trueorfalse": "false"
     }
 ]
