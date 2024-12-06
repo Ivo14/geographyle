@@ -25,7 +25,7 @@ fetch('/data/protocountries.json')
     arrcountries = data;
     const datalist = document.getElementById("countries");
     arrcountries.forEach(country => {
-        
+
       const option = document.createElement("option");
       option.value = country.name;
       datalist.appendChild(option);
@@ -40,15 +40,15 @@ let randomwintxtslose = [{ text: 'You have lost, the country was' }, { text: 'Yo
 
 
 
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxts[i]; }
-      for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslose[i]; }
-      GuessInputButton.innerText = "Guess";
-      NewGameButton.innerText = "New game";
-      GuessInputDiv.placeholder = "Enter country";
-  
+for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsMain[i] = randomwintxts[i]; }
+for (let i = 0; i < randomwintxts.length; i++) { randomwintxtsloseMain[i] = randomwintxtslose[i]; }
+GuessInputButton.innerText = "Guess";
+NewGameButton.innerText = "New game";
+GuessInputDiv.placeholder = "Enter country";
 
 
-     
+
+
 
 
 
@@ -83,7 +83,7 @@ newgamecheck = () => {
   else setTimeout(newgamecheck, 1000)
 }
 Win = () => {
-MessageDiv.style.display = ''
+  MessageDiv.style.display = ''
   localStorage.streak++;
   MessageDiv.classList.add('strokemegreen');
   MessageDiv.classList.remove('strokemered');
@@ -96,7 +96,7 @@ MessageDiv.style.display = ''
   newgamecheck()
 }
 Lose = () => {
-MessageDiv.style.display = ''
+  MessageDiv.style.display = ''
   MessageDiv.classList.add('strokemered');
   MessageDiv.classList.remove('strokemegreen');
   let randomwintext = randomwintxtsloseMain[Math.floor(Math.random() * randomwintxtsloseMain.length)]
@@ -156,19 +156,15 @@ NewHint = () => {
   }
 }
 
-let checker = () => {
-
+const checker = () => {
   numberOfGuesses++
   let Guess = GuessInputDiv.value.toLowerCase()
-  if (Guess == (country.name).toLowerCase()) Win()
-  else {
-    if (numberOfGuesses > 5) { Lose() }
-    else {
-      NewHint()
-    }
-  }
+  if (Guess == country.name.toLowerCase()) Win()
+  else if (numberOfGuesses > 5)  Lose() 
+  else NewHint()
 }
-let cleanUp = () => {
+
+const cleanUp = () => {
   gameEnded = false;
   DescriptionDiv.innerText = ''
   CapitalDiv.innerText = ''
@@ -182,17 +178,16 @@ let cleanUp = () => {
   GuessInputDiv.value = ''
 }
 
-GuessInputButtonDiv.onclick = () => { checker() }
 GuessInputDiv.addEventListener("keydown", (k) => {
   if (k.keyCode == 13 && !gameEnded) { checker() }
+  if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
+})  	
+document.addEventListener("keydown", (k) => {
+  if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
 })
+
+GuessInputButtonDiv.onclick = () => { checker() }
 NewGameButton.onclick = () => {
   { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
 }
 
-GuessInputDiv.addEventListener("keydown", (k) => {
-  if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
-})
-document.addEventListener("keydown", (k) => {
-  if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
-})

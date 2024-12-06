@@ -34,5 +34,177 @@
         "picture": "https://upload.wikimedia.org/wikipedia/commons/2/25/Young_Pioneers_in_Kazakh_SSR.jpg",
         "armorial": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Coat_of_arms_of_the_Soviet_Union_%281956%E2%80%931991%29.svg",
         "flag": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Flag_of_the_Soviet_Union.svg"
+    },
+    {
+        "name": "Merina Kingdom",
+        "description":"It was a pre-colonial state off the coast of Southeast Africa that, by the 18th century, dominated most of what is now Madagascar.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Madagascar_%28centered_orthographic_projection%29.svg",
+        "capital": "Antananarivo",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/2/20/FrenchTroopsMadagasgar.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/5/54/Coat_of_arms_of_the_Merina_Kingdom.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_the_Merina_Kingdom.svg"
+    },
+    {
+        "name": "Rhodesia",
+        "description":"It was an unrecognised state in Southern Africa from 1965 to 1979. During this fourteen-year period, Rhodesia served as a de facto successor state to a British colony, and in 1980 it became modern day Zimbabwe.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/5/50/Zimbabwe_%28orthographic_projection%29.svg",
+        "capital": "Salisbury",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Rhodesian_Eland_and_T-55.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/1/18/Coat_of_arms_of_Southern_Rhodesia_%281924%E2%80%931980%29.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Rhodesia_%281968%E2%80%931979%29.svg"
+    },
+    {
+        "name": "Ryukyu Kingdom",
+        "description":"It was a kingdom of islands from 1429 to 1879, which was ruled as a tributary state of imperial Ming China by a monarchy, who unified Okinawa Island to end the Sanzan period, and extended the kingdom to the Amami Islands and Sakishima Islands. It played a central role in the maritime trade networks of medieval East Asia and Southeast Asia despite its small size.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ryukyu_orthographic.svg",
+        "capital": "Shuri",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/84/Naha_Shuri_Castle51s3s4200.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Hidari_mitsudomoe.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/19/Merchant_flag_of_the_Ryukyu_Kingdom.svg"
+    },
+    {
+        "name": "Ottoman Empire",
+        "description":"It was an imperial realm that controlled much of Southeast Europe, West Asia, and North Africa from the 14th to early 20th centuries; it also controlled parts of southeastern Central Europe, between the early 16th and early 18th centuries.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/c/c3/OttomanEmpire1566.png",
+        "capital": "Söğüt + Nicaea (İznik) + Bursa + Adrianople (Edirne) + Constantinople (Istanbul)",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sultanvahideddin.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Coat_of_arms_of_the_Ottoman_Empire_%281882%E2%80%931922%29.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_the_Ottoman_Empire_%281844%E2%80%931922%29.svg"
+    },
+    {
+        "name": "Sultanate of Lahej",
+        "description":"It was a Sheikdom based in Southern Arabia. The Sultanate became self-ruling in 1728 and gained independence in 1740. In 1839, the Sultanate became part of the Aden Protectorate of the British Empire, though nominally the 'Abdali Sultan retained his status. The Aden Protectorate was briefly ruled again by the Ottomans during World War I, but regained by the British after the Ottoman defeat in World War I and absorbed into Federation of South Arabia in 1963. The 'Abdali dynasty was officially abolished in 1967, with the proclamation of South Yemen.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/0/06/Lahej_Sultanate_in_its_region1.svg",
+        "capital": "Lahij",
+        "picture": "https://preview.redd.it/oz1s8pqt3gy51.jpg?auto=webp&s=be24e33f26b90eeba7b234c17a3cff6502681f11",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/8/80/Emblem_of_Lahj.png",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_the_Sultanate_of_Lahej.svg"
+    },
+    {
+        "name": "Kingdom of Siam",
+        "description":"It was a kingdom between 1782 and 1932, which was founded in 1782 with the establishment of Rattanakosin (Bangkok), which replaced the city of Thonburi as the capital. Internally the kingdom developed into a centralized, absolutist, nation state with borders defined by interactions with Western powers.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Map_of_Siamese_Kingdom_in_1916.jpg",
+        "capital": "Bangkok",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Front_Palace_circa.1890.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Coat_of_arms_of_Siam_%28greater%29.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Flag_of_Siam_%281855%29.svg"
+    },
+    {
+        "name": "Vichy France",
+        "description":"It was the French rump state headed by Marshal Philippe Pétain during World War II, which was named after its seat of government. Officially independent, but with half of its territory occupied under the harsh terms of the 1940 armistice with Nazi Germany, it adopted a policy of collaboration. Though Paris was nominally its capital, the government established itself in a resort town in the unoccupied \"free zone\", where it remained responsible for the civil administration of France as well as its colonies.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/5/53/French_State_1942.svg",
+        "capital": "Vichy",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bundesarchiv_Bild_101I-141-1258-15%2C_Russland-Mitte%2C_Soldaten_der_franz%C3%B6sischen_Legion%2C_Fahne.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/9/90/Le_cartouche_de_l%27%C3%89tat_Fran%C3%A7ais.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg"
+    },
+    {
+        "name": "East Germany",
+        "description":"It was a country in Central Europe from its formation on 7 October 1949 until the country's reunification on 3 October 1990. Until 1989, it was generally viewed as a communist state and described itself as a socialist \"workers' and peasants' state\". The economy of the country was centrally planned and state-owned. Although it had to pay substantial war reparations to the Soviets, its economy became the most successful in the Eastern Bloc.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Europe-GDR_%28orthographic_projection%29.svg",
+        "capital": "East Berlin",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Bundesarchiv_Bild_183-1989-1104-437%2C_Berlin%2C_Demonstration_am_4._November.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/d/d3/State_arms_of_the_German_Democratic_Republic.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/9/97/Flag_of_the_German_Democratic_Republic.svg"
+    },
+    {
+        "name": "West Germany",
+        "description":"It was formed as a political entity during the Allied occupation of Germany after World War II, established from 12 states formed in the three Allied zones of occupation held by the United States, the United Kingdom, and France.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/0/09/Europe-West_Germany_%28orthographic_projection%29.svg",
+        "capital": "Bonn",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Koeln_1945.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/d/da/Coat_of_arms_of_Germany.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg"
+    },
+    {
+        "name": "Prussia",
+        "description":"It was a German state centred on the North European Plain that originated from the 1525 secularization of a part of the State of the Teutonic Order. The Knights had to relocate their headquarters to Mergentheim, but managed to keep land in Livonia until 1561.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/7/79/Kingdom_of_Prussia_1714.svg",
+        "capital": "Königsberg + Berlin",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Stadtschloss_1702.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Preu%C3%9Fischer_Adler.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Flag_of_the_Kingdom_of_Prussia_%281803-1892%29.svg"
+    },
+    {
+        "name": "Lübeck",
+        "description":"It was a city-state from 1226 to 1937, in what is now the German states of Schleswig-Holstein and Mecklenburg-Vorpommern. In 1226, Emperor Frederick II declared the city to be a Free Imperial City. Its law was the constitution of the city's municipal form of government developed after being made a free city. In theory, that law made the cities which had adopted it independent of royalty.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/5/58/Lubeck_in_the_German_Reich_%281871%29.svg",
+        "capital": "Lübeck",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/9/92/HL_Damals_%E2%80%93_1871.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Shield_of_L%C3%BCbeck.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_the_Free_City_of_L%C3%BCbeck.svg"
+    },
+    {
+        "name": "Zanzibar",
+        "description":"It was a short-lived African state founded in 1964, consisting of the islands of the Archipelago with the same name as the country. It existed for less than six months before it merged with Tanganyika to create a United Republic, which would be renamed the United Republic of Tanzania in November of that year.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Zanzibar_in_its_region_%28special_marker%29.svg",
+        "capital": "Zanzibar City",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8b/The_old_castle_in_Zanzibar.JPG",
+        "armorial": "https://vignette.wikia.nocookie.net/conworld/images/2/23/Coat_of_arms_of_Zanzibar.png/revision/latest?cb=20161018095115",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Flag_of_Zanzibar_%28January-April_1964%29.svg"
+    },
+    {
+        "name": "Tanganyika",
+        "description":"It was a sovereign state, comprising the mainland part of present-day Tanzania, that existed from 1961 until 1964. It first gained independence from the United Kingdom on 9 December 1961 as a Commonwealth realm headed by Queen Elizabeth II before becoming a republic within the Commonwealth of Nations a year later.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tanzania_%28orthographic_projection%29.svg",
+        "capital": "Dar es Salaam",
+        "picture": "https://3.bp.blogspot.com/_im7tm1SpHno/S-imlPFI7iI/AAAAAAAAAFg/6GrnQ0k9j10/s1600/Lake+Tanganyika_Kijani.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Coat_of_arms_of_Tanganyika_%281961%E2%80%931964%29.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/1/16/Flag_of_Tanganyika_%281961%E2%80%931964%29.svg"
+    },
+    {
+        "name": "Zair",
+        "description":"It was the name of the Democratic Republic of the Congo from 1971 to 18 May 1997. Located in Central Africa, it was, by area, the third-largest country in Africa after Sudan and Algeria, and the 11th-largest country in the world from 1965 to 1997. With a population of over 23 million, it was the most populous Francophone country in Africa. It played a central role during the Cold War.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/3/39/Republic_of_Zaire_%28orthographic_projection%29.svg",
+        "capital": "Kinshasa",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Prince_Bernhard_and_Mobutu_Sese_Seko_1973.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/2/21/Coat_of_arms_of_Zaire_%281971%E2%80%931997%29.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_Zaire_%281971%E2%80%931997%29.svg"
+    },
+    {
+        "name": "Tibet",
+        "description":"It was a de facto independent state in East Asia that lasted from the collapse of the Qing dynasty in 1912 until its annexation by the People's Republic of China in 1951.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tibet%2C_World_War_II.svg",
+        "capital": "Lhasa",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Bundesarchiv_Bild_135-S-17-14-39%2C_Tibetexpedition%2C_Shigatse%2C_Truppenparade.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/8/86/Emblem_of_Tibet.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/63/Flag_of_Tibet_%281916-1951%29.svg"
+    },
+    {
+        "name": "Roman Empire",
+        "description":"It ruled the Mediterranean and much of Europe, Western Asia and North Africa. They conquered most of this during the Republic, and it was ruled by emperors following Octavian's assumption of effective sole rule in 27 BC. The western empire collapsed in 476 AD, but the eastern empire lasted until the fall of Constantinople in 1453.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/0/00/Roman_Empire_Trajan_117AD.png",
+        "capital": "Rome + Constantinople",
+        "picture": "https://www.vision.org/sites/default/files/img/2016spring_roman-empire-reconsidered_1920x1080.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/1/10/Better_Imperial_Aquila.png",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_of_the_Roman_Empire.svg"
+    },
+    {
+        "name": "Czechoslovakia",
+        "description": "It was a landlocked country in Central Europe, created in 1918, when it declared its independence from Austria-Hungary. In 1938, after the Munich Agreement, the Sudetenland became part of Nazi Germany, while the country lost further territories to Hungary and Poland.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/7/79/Czechoslovakia_location_map.svg",
+        "capital": "Prague",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bb/28._%C5%99%C3%ADjen_1918.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Coat_of_arms_of_the_Czech_and_Slovak_Federal_Republic.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_the_Czech_Republic.svg"
+    },
+    {
+        "name": "Yugoslavia",
+        "description": "It was a country in Southeast and Central Europe that existed from 1918 to 1992. It came into existence following World War I, under the name of the Kingdom of Serbs, Croats and Slovenes from the merger of the Kingdom of Serbia with the provisional State of Slovenes, Croats and Serbs, and constituted the first union of South Slavic peoples as a sovereign state, following centuries of foreign rule over the region under the Ottoman Empire and the Habsburg monarchy.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Yugoslavia_location_map.svg",
+        "capital": "Belgrade",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Triglav.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/5/58/Coat_of_arms_of_the_Kingdom_of_Yugoslavia.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg"
+    },
+    {
+        "name": "Hawaiian Kingdom",
+        "description": "It was a sovereign state which existed from 1795 to 1893. It was established during the late 18th century when Kamehameha I, conquered the islands of Oʻahu, Maui, Molokaʻi, and Lānaʻi, and unified them under one government.",
+        "maplocation": "https://upload.wikimedia.org/wikipedia/commons/4/49/Hawaii_on_the_globe_%28Polynesia_centered%29.svg",
+        "capital": "Waikīkī + Kailua-Kona + Honolulu + Lāhainā",
+        "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lowering_the_Hawaiian_flag_at_Annexation_ceremony_%28PPWD-8-3-006%29.jpg",
+        "armorial": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Royal_Coat_of_Arms_of_Hawaii.svg",
+        "flag": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg"
     }
+
 ]
