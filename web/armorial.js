@@ -33,7 +33,6 @@ let newgame = () => {
 NewGameButton.style.display = 'none';
   numberOfGuesses = 0;
  country = arr[Math.floor(Math.random() * arr.length)]
- console.log(country)
 FlagIMG.innerHTML = `<img src='${country.armorial}' width="500" height="500" draggable="false" style="pointer-events: none; user-select: none;"/>`
 numberOfGuesses = 0;
 }

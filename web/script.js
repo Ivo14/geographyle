@@ -279,16 +279,16 @@ let cleanUp = () => {
 }
 
 GuessInputButtonDiv.onclick = () => { checker() }
-GuessInputDiv.addEventListener("keydown", (k) => {
-  if (k.keyCode == 13 && !gameEnded) { checker() }
-})
+
 NewGameButton.onclick = () => {
   { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
 }
 
 GuessInputDiv.addEventListener("keydown", (k) => {
+  if (k.keyCode == 13 && !gameEnded) { checker() }
   if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
 })
+
 document.addEventListener("keydown", (k) => {
   if (k.keyCode == 32 && NewGameButton.style.display == '') { NewGameButton.style.display = 'none'; setTimeout(game, 1000); }
 })

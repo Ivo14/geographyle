@@ -496,7 +496,7 @@
         "trueorfalse": "false"
     },
     {
-        "text": "Brazil has more land area than all other South American countries.",
+        "text": "Brazil has more land area than all other South American countries combined.",
         "trueorfalse": "false"
     },
     {
@@ -839,107 +839,107 @@
         "text": "Nunavut is the largest territory of Canada.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Lake Baikal in Russia is the deepest lake in the world",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Bangladesh is surrounded on three sides by India",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Lake Superior is the largest freshwater lake by surface area",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Spain has more than 1 desert.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Serbia has a desert.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "There is such a thing called the \"European Sahara\".",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Malaysia is a megadiverse country.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Ecuador has a higher biodiversity index than the USA.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Albania used to be called Arbanon.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Barbados used to be called British Honduras.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "The Hungarian exonym is Magyarország",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "Norway has one of the lowest rates of recidivism in the world.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "There are more Shinto shrines in Japan than Hindu temples in India",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "Honshu has a larger area than Sumatra.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "Borneo has a larger area than New Guinea (island).",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "The USA has a higher biodiversity index than Mexico.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "The Quetta Railway Station is in Iran.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "Belarus is the only country that borders both mainland Russia and the exclave of Russia.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "The USA is part of the Commonwealth of Nations.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "\"Unity makes strength\" is a motto that is used by Bulgaria exclusively.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "\"Unity makes strength\" is the national motto of Belgium, Bolivia, Bulgaria, Georgia and Malaysia.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "Estonia has the shortest national anthem.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "El salvador has the longest national anthem.",
         "trueorfalse": "false"
     },
-    { 
+    {
         "text": "Helsinki has only one metro line",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "An isthmus is a narrow piece of land connecting two larger areas across an expanse of water by which they are otherwise separated.",
         "trueorfalse": "true"
     },
-    { 
+    {
         "text": "A peninsula is a narrow piece of land connecting two larger areas across an expanse of water by which they are otherwise separated.",
         "trueorfalse": "false"
     },
@@ -1072,15 +1072,179 @@
     {
         "text": "Half of Africa's GDP comes from just 3 countries.",
         "trueorfalse": "false",
-        "link":"https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
+        "link": "https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
     },
     {
         "text": "Half of Africa's GDP comes from just 5 countries.",
         "trueorfalse": "true",
-        "link":"https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
+        "link": "https://www.youtube.com/watch?v=5OaLksrcUhk&t=375s"
     },
     {
         "text": "The flag of the Philippines has two colors on it.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Hawaii is the largest island of the USA.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Puerto Rico is the largest island of the USA.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Kodiak island is owned by Canada.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "South Korea's flag has the yin and yang symbol on it.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Japan's largest island is Hokkaido.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Japan's largest island is Honshu.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Longyearbyen is the northernmost settlement in the world (with a population greater than 1,000).",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Yakutsk is the northernmost settlement in the world (with a population greater than 1,000).",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Prudhoe bay is the northernmost settlement in the world.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Thames is longer than the Amazon.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Thames is home to more than 100 fish species.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Thames is the longest river in the UK.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Thames used to host Frost Fairs on its surface.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The River Severn is the longest in the UK.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The longest river in the world is the Yangtze.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The longest river in China is the Yellow river.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The longest river in China is the Yangtze.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The longest river in Asia is the Yangtze.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Mediterranean Sea has a bigger surface area than the Nile.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Nile has a bigger surface area than the Arctic Ocean.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Nile has a bigger surface area than the Amazon River.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Lake Baikal is the deepest lake in the world.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Russia has a larger population than Bangladesh.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Bangladesh has a higher population density than the Maldives.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Honshu is historically known as Akitsushima (lit. 'Dragonfly island').",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Japan's flag is known as the Hinomaru, or officially Nisshōki in Japanese.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Japan's sobriquet is 'Land of the Rising Sun'.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Inuit people live in the far south part of Argentina and Chile.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The majority of the Inuit people live in the far north part of Russia.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The majority of the Inuit people live in the far north part of Canada.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Many Inuit people in Canada live in Inuit Nunangat, which literally means'the place where Inuit live'.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Chiloe island is the largest island of Chile.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Isla Grande de Tierra del Fuego is the second largest island of South America.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "East Falkland/Isla Soledad is the largest island of South America.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Isla Grande de Tierra del Fuego is the largest island of South America.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Hispaniola is located in South America.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Coiba is the largest island of Central America.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Coiba is an island which is part of Panama.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Coiba is an island which is part of Guatemala.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Isla de la Juventud is the second largest island of Cuba.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Galápagos Islands is an archipelago in the South Atlantic Ocean on the Patagonian Shelf.",
         "trueorfalse": "false"
     }
 ]

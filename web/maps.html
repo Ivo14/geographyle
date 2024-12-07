@@ -5,11 +5,11 @@
   <meta property="og:title" content="Geographyle" />
     <meta property="og:description" content="Learn Geography the fun and easy way through games" />
     <meta property="og:image" content="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
-    <meta property="og:url" content="https://geograph.netlify.app/langyle" />
+    <meta property="og:url" content="https://geograph.netlify.app/maps" />
     <meta property="og:type" content="website" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Langyle</title>
+  <title>Maps</title>
   <link rel="icon" type="image/x-icon"
     href="https://images.pexels.com/photos/87651/earth-blue-planet-globe-planet-87651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">
 
@@ -23,21 +23,19 @@
       .then(response => response.text())
       .then(data => document.getElementById('navbar').innerHTML = data);
   </script>
-  <h2 id=Message class='description'>What's this language?</h2>
-  <p id="text" class='description'></p>
+  <h2 id=Message class='description'>When was this map made?</h2>
   <div>
     <span class="input">
-      <input autofocus="" placeholder="Enter language" id='GuessInput' name="language" list="languages" type='text'>
+      <input autofocus="" placeholder="Enter year" id='GuessInput' name="year" type='number'>
     </span>
-
-    <datalist id="languages">
-    </datalist>
     <button class="buttons" id='GuessInputButton'>Guess</button>
+    <button class="buttons" id='NewGameButton'>New game</button>
   </div>
-  <div class='wrongGuesses strokemered' id="wrongAnswers"></div>
-  <button class="buttons" id='NewGameButton'>New game</button>
+  <div id='mapContainer' style="margin-top:10px; position: relative; width: 2000px; height: 700px; overflow: hidden;">
 
-  <script src="langyle.js"></script>
+</div>
+
+  <script src="maps.js"></script>
 </body>
 
 </html>

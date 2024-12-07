@@ -22,7 +22,7 @@ function generate() {
     let type = Math.ceil(Math.random() * 6)
     let num = Math.floor(Math.random() * 5)
     let country = selected[num];
-    do { replace = Math.floor(Math.random() * arr.length); console.log(arr[replace]) } while (arr[replace] == country)
+    do { replace = Math.floor(Math.random() * arr.length); } while (arr[replace] == country)
     switch (type) {
         case 1:
             temp = country.name
@@ -58,11 +58,11 @@ function generate() {
         card.innerHTML = `
           <div class='cardholder'>
             <div id=1${i}>${country.name}</div>
-            <img id=2${i} class='miniflag' src="${country.flag || `https://flagsapi.com/${country.code.toUpperCase()}/shiny/64.png`}" alt="Flag of ${country.name}">
+            <img loading="lazy" id=2${i} class='miniflag' src="${country.flag || `https://flagsapi.com/${country.code.toUpperCase()}/shiny/64.png`}" alt="Flag of ${country.name}">
           </div>
           <div id=3${i} style='padding-bottom:10px'>Capital: ${country.capital}</div>
-          <img id=4${i} src="${country.maplocation}" style='height:200px;width:200px' alt="Map of ${country.name}">
-          <img id=5${i} src="${country.armorial}" style='height:200px;width:200px' alt="Armorial of ${country.name}">
+          <img loading="lazy" id=4${i} src="${country.maplocation}" style='height:200px;width:200px' alt="Map of ${country.name}">
+          <img loading="lazy" id=5${i} src="${country.armorial}" style='height:200px;width:200px' alt="Armorial of ${country.name}">
           <div id=6${i} class='minidescription'>${country.description}</div>
         `;
 
