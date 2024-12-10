@@ -1136,6 +1136,22 @@
         "trueorfalse": "true"
     },
     {
+        "text": "The Thames is crossed by only 5 bridges.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Thames is crossed by over 200 bridges.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Thames path is longest river walk in Europe.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Thames barrier is the second largest flood barrier in the world.",
+        "trueorfalse": "true"
+    },
+    {
         "text": "The River Severn is the longest in the UK.",
         "trueorfalse": "true"
     },
@@ -1246,5 +1262,85 @@
     {
         "text": "The Galápagos Islands is an archipelago in the South Atlantic Ocean on the Patagonian Shelf.",
         "trueorfalse": "false"
+    },
+    {
+        "text": "Turkey borders the biggest amount of countries which have different scripts.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "China borders the biggest amount of countries which have different scripts.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "France's longest border is with Spain.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "France's longest border is with Brazil.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "France's longest border is with Germany.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Lake Baikal has a bigger surface area than Lake Superior.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Ecuador has a bigger surface area than Ireland.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Kazakhstan has a bigger surface area than India.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "Spain has a bigger surface area than Norway.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Kariba Dam was built on Lake Malawi.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Kariba Dam was built on the Zambezi River basin.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "Tarbela Dam in Pakistan is the largest man-made dam by volume in the world.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Atatürk Dam in Turkey is the largest in Asia.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Atatürk Dam in Turkey was named after a president of Turkey.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The Lake Homs Dam in Syria is the oldest operational dam in the world.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The oldest currently operational dam in the world was built in the 16th century.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The Hagia Sophia is located in Sofia, Bulgaria.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "In Austria, Hungarian is an official regional language.",
+        "trueorfalse": "true"
+    },
+    {
+        "text": "The official language of Austria is Austrian.",
+        "trueorfalse": "false"
+    },
+    {
+        "text": "The official language of Austria is German.",
+        "trueorfalse": "true"
     }
 ]
